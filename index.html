@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <section class="profil flex flex-col justify-center p-20 bg-slate-800 font-sans lg:flex-row ">
+            <div class="foto-profil">
+                <img src="assets/CV.jpg" class="fotoprofil rounded-full" width="350px" height="350px">
+            </div>
+            <div class="container-profil flex-initial text-slate-50 text-center text-7xl pt-10 pr-70">
+                <h1>Mohammad Rayhan Maulana</h1>
+                <h4 class="text-xl">FE2913606</h4>
+            </div>
+        </section>
+        <div class="narasi bg-slate-800 font-sans text-slate-50 text-2xl text-justify p-6 lg:h-56 lg:pr-96 lg:pl-10">
+            <p>Saya Mohammad Rayhan Maulana, asal saya dari Desa Cindogo, Kecamatan Tapen, Kabupaten Bondowoso. saya adalah mahasiswa di Jurusan Teknologi Informasi Fakultas Ilmu Komputer, Universitas Negeri Jember. di semester 5 ini saya mengikuti Studi Independen di Ruangguru CAMP dengan mengambil course Frontend Engineering</p>
+        </div>
+    </header>
+    <main>
+        <section class="container-riwayat bg-slate-50 pt-16 lg:h-96">
+            <div class="riwayat flex flex-col-reverse font-sans text-xl pl-6 lg:flex-row lg:pl-60">
+                <div class="listriwayat pt-10 leading-loose">
+                    <ol>
+                        <h3 class="font-bold">Riwayat pendidikan</h3>
+                        <li>SDN Cindogo 1 (2008-2014)</li>
+                        <li>SMPN 2 Tenggarang (2014-2017)</li>
+                        <li>SMAN 1 Tenggarang (2017-2020)</li>
+                        <li>Universitas Negeri Jember (2020-Sekarang)</li>
+                    </ol>
+                </div>
+                <div class="foto-riwayat lg:pl-72">
+                    <img src="assets/unej.jpg" class="fotoriwayat rounded-full" width="230px" height="230px">
+                </div>
+            </div>
+        </section>
+        <section class="container-org  bg-slate-900 pt-16 lg:h-96">
+            <div class="organisasi flex flex-col font-sans text-slate-50 text-xl pl-6 lg:pl-60 lg:flex-row">
+                <div class="foto-org lg:pr-72">
+                    <img src="assets/org.jpg" class="fotoorg rounded-full" width="230px" height="230px">
+                </div>
+                <div class="listorg pt-10 leading-loose">
+                    <ol>
+                        <h3 class="font-bold">Pengalaman Organisasi</h3>
+                        <li>OSIS SMPN 2 Tenggarang</li>
+                        <li>Panitia Qurban SMPN 2 Tenggarang</li>
+                        <li>Panitia Pentas Seni SMPN 2Tenggarang 2016</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <section class="skill text-center font-sans p-7 bg-slate-50 h-96">
+            <h3 class="pb-12 text-xl font-bold">Kemampuan</h3>
+            <div class="container-skill grid gap-3 grid-cols-3 justify-items-center text-lg">
+                <div class="box1">
+                    <img src="assets/ui.png" class="ui rounded-full" width="200px" height="200px">
+                </div>
+                <div class="box1">
+                    <img src="assets/diagram.jpg" class="diagram rounded-full" width="200px" height="200px">
+                </div>
+                <div class="box1">
+                    <img src="assets/flutter.jpg" class="flut rounded-full" width="200px" height="200px">
+                </div>
+                <div class="box1">
+                    <h5 class="text-base">Desain Mockup UI</h5>
+                </div>
+                <div class="box1">
+                    <h5 class="text-base">Desain Diagram Perancangan Aplikasi</h5>
+                </div>
+                <div class="box1">
+                    <h5 class="text-base">Frontend Flutter</h5>
+                </div>
+            </div>
+        </section>
+        <div class="form text-center bg-slate-900 h-96">
+            <h3 class="text-slate-50 p-6 text-xl font-bold font-sans">Pesan</h3>
+            <form action="">
+                <div class="mb-5">
+                    <label class="text-slate-50" for="nama">Nama :</label>
+                    <input class="rounded-lg bg-slate-200 p-2" type="text" id="name" name="name" placeholder="Name">
+                </div>
+                <div class="mb-5">
+                    <label class="text-slate-50" for="email">Email :</label>
+                    <input class="rounded-lg bg-slate-200 p-2" type="text" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="mb-5">
+                    <label class="text-slate-50" for="pesan">Pesan :</label><br>
+                    <textarea class="rounded-lg bg-slate-200 p-2" name="Pesan" id="pesan" cols="40" rows="5" placeholder="Tulis Pesan..."></textarea>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <section class="container-kontak text-center font-sans">
+            <h3 class="p-6 text-xl font-bold">Kontak</h3>
+            <div class="kontak grid gap-2 grid-cols-3 justify-items-center">
+                <div class="ig">
+                    <img src="assets/ig.png" width="30" height="30">
+                </div>
+                <div class="ig">
+                    <img src="assets/git.png" width="30" height="30">
+                </div>
+                <div class="ig">
+                    <img src="assets/twt.png" width="30" height="30">
+                </div>
+                <div class="ig">
+                    <a href="https://www.instagram.com/maulanarayhn/">maulanarayhn</a>
+                </div>
+                <div class="ig">
+                    <a href="https://github.com/MRayhanm">MRayhanm</a><br>
+                </div>
+                <div class="ig">
+                    <a href="https://twitter.com/rayhanmmm?t=oKwRTbkveXFVhq4VpVSLew&s=09">MRayhanmmm</a><br>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
